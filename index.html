@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Kwitter</title>
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="kwitter.js"></script>
+</head>
+
+<body>  
+    
+
+    <center>
+        <h1 class="header">
+            Kwitter <sup>
+                <img src="data:image/png;base64,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">
+            </sup>
+        </h1>
+        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 login_div">
+           
+            <h3>See what is happening in the world right now</h3>
+            <h4>Join Kwitter today</h4>
+            <div class="form-group">
+                <label>User Name:</label> <br>
+                <input type="text" id="user_name" placeholder="Enter user name" class="form-control">
+            </div>
+            <button id="login_button" class="btn btn-primary" onclick="addUser()"> Log in </button>
+            <br><br>
+        </div>
+    </center>
+    <script src="Kwitter.css"></script>
+</body>
+
+</html>
